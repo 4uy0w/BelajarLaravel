@@ -1,3 +1,3 @@
 # BelajarLaravel
-JUGA UTUK TUGAS TA
-Belajar Laravel untuk pemula tahun 2025
+
+Belajar Laravel untuk pemula dan pelajar 
