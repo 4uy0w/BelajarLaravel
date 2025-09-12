@@ -1,0 +1,889 @@
+[2025-08-15 02:50:09] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php:725)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(283): Symfony\\Component\\Console\\Application->find()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
+[2025-08-15 03:02:52] local.ERROR: Vite manifest not found at: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/build/manifest.json (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/layouts/app.blade.php) (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/layouts/app.blade.php) {"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Vite manifest not found at: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/build/manifest.json (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/layouts/app.blade.php) (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/layouts/app.blade.php) at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:935)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(35): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Auth\\Middleware\\RedirectIfAuthenticated->handle()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#57 {main}
+
+[previous exception] [object] (Illuminate\\View\\ViewException(code: 0): Vite manifest not found at: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/build/manifest.json (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/layouts/app.blade.php) at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:935)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/afc613c2bebb58bef6a6edcab502323e.php(120): Illuminate\\View\\View->render()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(35): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Auth\\Middleware\\RedirectIfAuthenticated->handle()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#57 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#58 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#59 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#60 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#61 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#62 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#63 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#64 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#65 {main}
+
+[previous exception] [object] (Illuminate\\Foundation\\ViteManifestNotFoundException(code: 0): Vite manifest not found at: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/build/manifest.json at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:935)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php(384): Illuminate\\Foundation\\Vite->manifest()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/2edb00a75d11c74c710ee322acab1f60.php(17): Illuminate\\Foundation\\Vite->__invoke()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/afc613c2bebb58bef6a6edcab502323e.php(120): Illuminate\\View\\View->render()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(35): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Auth\\Middleware\\RedirectIfAuthenticated->handle()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#57 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#58 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#59 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#60 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#61 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#62 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#63 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#64 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#65 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#66 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#67 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#68 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#69 {main}
+"} 
+[2025-08-15 03:06:15] local.ERROR: Unable to locate file in Vite manifest: resources/css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) {"userId":1,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Unable to locate file in Vite manifest: resources/css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#55 {main}
+
+[previous exception] [object] (Illuminate\\Foundation\\ViteException(code: 0): Unable to locate file in Vite manifest: resources/css/app.css. at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php(390): Illuminate\\Foundation\\Vite->chunk()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/841d2b450df17942e07bd28b380c9dfc.php(15): Illuminate\\Foundation\\Vite->__invoke()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#58 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#59 {main}
+"} 
+[2025-08-15 03:08:12] local.ERROR: Unable to locate file in Vite manifest: resources/css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) {"userId":1,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Unable to locate file in Vite manifest: resources/css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#55 {main}
+
+[previous exception] [object] (Illuminate\\Foundation\\ViteException(code: 0): Unable to locate file in Vite manifest: resources/css/app.css. at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php(390): Illuminate\\Foundation\\Vite->chunk()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/841d2b450df17942e07bd28b380c9dfc.php(15): Illuminate\\Foundation\\Vite->__invoke()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#58 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#59 {main}
+"} 
+[2025-08-15 03:10:09] local.ERROR: Unable to locate file in Vite manifest: resources/css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) {"userId":1,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Unable to locate file in Vite manifest: resources/css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#55 {main}
+
+[previous exception] [object] (Illuminate\\Foundation\\ViteException(code: 0): Unable to locate file in Vite manifest: resources/css/app.css. at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php(390): Illuminate\\Foundation\\Vite->chunk()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/841d2b450df17942e07bd28b380c9dfc.php(15): Illuminate\\Foundation\\Vite->__invoke()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#58 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#59 {main}
+"} 
+[2025-08-15 03:12:58] local.ERROR: Unable to locate file in Vite manifest: ../css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) {"userId":1,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Unable to locate file in Vite manifest: ../css/app.css. (View: /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/resources/views/welcome.blade.php) at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate\\View\\Engines\\CompilerEngine->handleViewException()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#55 {main}
+
+[previous exception] [object] (Illuminate\\Foundation\\ViteException(code: 0): Unable to locate file in Vite manifest: ../css/app.css. at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php:988)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Vite.php(390): Illuminate\\Foundation\\Vite->chunk()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/storage/framework/views/841d2b450df17942e07bd28b380c9dfc.php(15): Illuminate\\Foundation\\Vite->__invoke()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('...')
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate\\View\\View->getContents()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate\\View\\View->renderContents()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate\\View\\View->render()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\\Http\\Response->setContent()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate\\Http\\Response->__construct()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate\\Routing\\Router::toResponse()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute()
+#32 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#34 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#47 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#49 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#51 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle()
+#53 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#55 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
+#58 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('...')
+#59 {main}
+"} 
+[2025-08-15 03:16:49] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php:725)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(283): Symfony\\Component\\Console\\Application->find()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
+[2025-08-15 03:31:22] local.ERROR: Class "Illuminate\Database\Support\Facades\DB" not found {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Database\\Support\\Facades\\DB\" not found at /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/database/seeders/UserSeeder.php:17)
+[stacktrace]
+#0 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\UserSeeder->run()
+#1 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(835): Illuminate\\Container\\BoundMethod::call()
+#5 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(188): Illuminate\\Container\\Container->call()
+#6 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(197): Illuminate\\Database\\Seeder->Illuminate\\Database\\{closure}()
+#7 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(71): Illuminate\\Database\\Seeder->__invoke()
+#8 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(157): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#9 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(70): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#10 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#11 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure()
+#13 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#14 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(835): Illuminate\\Container\\BoundMethod::call()
+#15 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#16 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute()
+#17 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#18 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(1092): Illuminate\\Console\\Command->run()
+#19 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(341): Symfony\\Component\\Console\\Application->doRunCommand()
+#20 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun()
+#21 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#22 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle()
+#23 /home/aldebaran/Project/Laravel-Project/Project-002/Belajar06_Laravel/artisan(16): Illuminate\\Foundation\\Application->handleCommand()
+#24 {main}
+"} 
