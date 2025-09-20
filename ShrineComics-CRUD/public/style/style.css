@@ -1,0 +1,196 @@
+body{
+    background-image: url("/image/Fujiwara.jpg");
+}
+h4{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title-area{
+    font-family: sans-serif;
+    text-align: center;
+}
+.notification-area{
+    width: auto;
+    height: 75px;
+}
+.comic-list{
+    width: 1366px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comic-list-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: auto;
+    padding-left: 25px;
+}
+.comic-row-box{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(237,169,66,0.5);
+    text-align: center;
+    font-family: sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 10px black;
+}
+.image-dec{
+    width: auto;
+    height: 100px;
+    background-color: green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url("/image/Alice.jpg");
+}
+.detail-comic-area{
+    width: auto;
+    height: auto;
+}
+.detail-comic-card{
+    width: 440px;
+    height: 520px;
+    background-color: rgba(237,169,66,0.5);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+.comment-area{
+    width: 390px;
+    height: 200px;
+    background-color: rgba(249,176,13,0.69);
+    margin-left: 25px;
+}
+.action-area{
+    width: 440px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 5px;
+}
+.create-new-comic-area{
+    width: auto;
+    height: 750px;
+}
+.create-new-comic-form{
+    width: 300px;
+    height: 550px;
+    background-color: rgba(237,169,66,0.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(10px);
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.edit-new-comic-area{
+    width: auto;
+    height: 750px;
+}
+.edit-comic-form{
+    width: 300px;
+    height: 550px;
+    background-color: rgba(237,169,66,0.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(10px);
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+#comic-title{
+    font-size: 20px;
+}
+#comic-comment{
+    font-size: 15px;
+}
+
+#add-comic-btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgba(255,165,0,0.75);
+    box-shadow: 10px 10px 10px black;
+}
+#add-comic-btn:hover{
+    box-shadow: 10px 10px 100px #deddda;
+}
+#show-comic-detail{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 10px 10px 20px black;
+    font-family: sans-serif;
+    background-color: rgba(249,176,13,0.69);
+}
+#show-comic-detail:hover{
+    box-shadow: 10px 10px 100px #deddda;
+}
+#comment-text{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#back-btn,#delete-comic,#edit-comic{
+    width: 100px;
+    height: 30px;
+    border-width: 0px;
+}
+#back-btn{
+    margin-left: 135px;
+    background-color: blue;
+    color: white;
+}
+#delete-comic,#edit-comic{
+    margin-left: 0px;
+}
+#edit-comic{
+    background-color: yellow;
+    margin-right: 5px;
+}
+#delete-comic{
+    background-color: red;
+    color: white;
+}
+#input-field{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+#submit,#discard-button{
+    width: 205px;
+    height: 30px;
+    margin-top: 10px;
+    border-width: 0px;
+}
+#submit{
+    background-color: yellow;
+}
+#discard-button{
+    background-color: blue;
+    color: white;
+}
